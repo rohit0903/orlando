@@ -15,7 +15,7 @@
     
 	
 	
-	
+	<!--
 	<p>one</p>
 	<div id="disqus_thread"></div>
 	<script>
@@ -30,7 +30,7 @@
 	  (d.head || d.body).appendChild(s);
 	  })();
 	</script>
-	
+	-->
 	
 	
 	
@@ -43,7 +43,7 @@
 	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 	
 	var disqus_config = function () {
-	this.page.url = 'https://rohit0903.github.io/qr/';  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.url = "http://{{site.domain}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
 	this.page.identifier = "{{page.id}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 	
